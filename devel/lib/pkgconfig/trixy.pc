@@ -1,0 +1,8 @@
+prefix=/home/roy/robomechtrix_ws/devel
+
+Name: trixy
+Description: Description of trixy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

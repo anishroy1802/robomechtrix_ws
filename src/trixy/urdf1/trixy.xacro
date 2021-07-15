@@ -1,23 +1,23 @@
-<?xml version='1.0'?>
+?xml version='1.0'?>
 
 <robot name="trixy" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <xacro:include filename="$(find trixy)/urdf/trixy.gazebo" />
   
   <gazebo reference="left_wheel">
-    <material>Gazebo/DarkGrey</material>
+    <material>Gazebo/Green</material>
   </gazebo>
 
   <gazebo reference="right_wheel">
-    <material>Gazebo/DarkGrey</material>
+    <material>Gazebo/Green</material>
   </gazebo>
 
   <gazebo reference="camera">
-    <material>Gazebo/FlatBlack</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
   <gazebo reference="chassis">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Blue</material>
   </gazebo>
   <link name="robot_footprint"></link>
 

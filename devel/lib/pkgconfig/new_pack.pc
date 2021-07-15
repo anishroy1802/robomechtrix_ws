@@ -1,0 +1,8 @@
+prefix=/home/roy/robomechtrix_ws/devel
+
+Name: new_pack
+Description: Description of new_pack
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

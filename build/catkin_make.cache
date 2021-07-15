@@ -1,0 +1,2 @@
+new_pack:newpkg:pack:trixy
+-DCATKIN_DEVEL_PREFIX=/home/roy/robomechtrix_ws/devel -DCMAKE_INSTALL_PREFIX=/home/roy/robomechtrix_ws/install -G Unix Makefiles
