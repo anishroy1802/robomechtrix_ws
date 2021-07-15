@@ -1,5 +1,5 @@
-# robomechtrix_ws
-Robomechtrix Workspace For ROS
+# ros-obstacle-avoidance
+
 
 This repo includes how to build a robot using ROS URDF.
 
@@ -14,8 +14,8 @@ Gazebo - sudo apt-get install ros-<version>-gazebo-ros
 To clone, build and run the ROS package
 ```
 git clone https://github.com/PranaliDesai/robomechtrix_ws.git
-cd robomechtrix_ws
-git checkout URDF-1
+cd ros-obstacle-avoidance
+
 catkin_make
 source devel/setup.bash
 roslaunch trixy world.launch
