@@ -19,6 +19,8 @@ roslaunch trixy world.launch
 ```
 In a new terminal window:
 ```
-rosrun new_pack moveit.py
+rosrun new_pack avoid.py
 ```
-To verify correctness of the algorithm, the node containing the code for obstacle avoidance can be launched with the turtlebot model with the Gazebo Stage_4 map as well. 
+To verify correctness of the algorithm, the node containing the code for obstacle avoidance can be launched with the turtlebot model with the Gazebo Stage_4 map as well. The node for obstacle avoidance can be found as ```avoid.py``` in the ```scripts``` sub-directory of the ```new_pack``` directory inside ```src```.
+
+This repo is based on the Robomechtrix set of tutorials on YouTube.
